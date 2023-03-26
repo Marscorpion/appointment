@@ -25,5 +25,5 @@ class AppointmentView(View):
         #     recipient_list=[]
         # )
 
-        return redirect('appointments:make_appointment')
+        return redirect('appointments')
 
